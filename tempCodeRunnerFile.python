@@ -1,0 +1,15 @@
+from tkinter import *
+from PIL import ImageTk,Image
+
+
+win = Tk()
+
+
+win.geometry("400x300")
+img = ImageTk.PhotoImage(Image.open("DILAWAR.JPG"))
+Label1 = Label(win , image=img ,width=400, height=300)
+Label1.pack()
+
+        
+
+win.mainloop()
